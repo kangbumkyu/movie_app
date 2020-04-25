@@ -1,0 +1,30 @@
+html, body, #root, .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eff3f7;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TODO: Add loading animation */
+
+.movies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-top: 70px;
+    width: 80%;
+    
+}
